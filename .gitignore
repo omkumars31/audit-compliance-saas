@@ -1,9 +1,14 @@
-# Backend
+# FRONTEND
+frontend/node_modules
+frontend/dist
+# BACKEND
 backend/node_modules
 backend/dist
 
-# Prisma SQLite DB
-backend/prisma/dev.db
+# PRISMA SQLITE DB
+backend/prisma/dev.db*
+backend/prisma/*.db*
+backend/prisma/*.sqlite
 
-# Environment Files
+# ENV FILES
 *.env
